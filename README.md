@@ -9,4 +9,4 @@ plugins=(... cleanzip)
 
 ## Plugin commands
 
-* `cleanzip PATH`
+* `cleanzip *PATH*`
