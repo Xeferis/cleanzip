@@ -1,3 +1,6 @@
+alias zip=/usr/bin/zip
+alias rm=/bin/rm
+
 function cleanzip() {
     local zipname=$1
     local path=${2:-$(pwd)}
