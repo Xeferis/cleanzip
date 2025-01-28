@@ -24,5 +24,9 @@ function cleanzip() {
     # Create a new zip file excluding unwanted files
     zip -r "$zipname" "$path" -x "*.DS_Store" -x "__MACOSX" -x "*.git*"
 
-    echo "Created $zipname from $path"
+    if [[ -f "$zipname" ]]; then
+        echo "Created $zipname from $path"
+    else
+        echo "Creation failed!"
+    fi
 }
