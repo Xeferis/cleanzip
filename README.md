@@ -1,6 +1,6 @@
 # cleanzip
 
-This plugin adds a function to compresses to zip without random data.
+This a plugin for zsh. It adds a command to compresses to zip without random data.
 
 To use it, add _cleanzip_ to the plugins array of your zshrc file:
 ```
