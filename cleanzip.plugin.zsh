@@ -3,7 +3,7 @@ alias rm=/bin/rm
 
 function cleanzip() {
     local zipname=$1
-    local path=${2:-$(pwd)}
+    local path=${2:-"."}
 
     if [[ -z "$zipname" ]]; then
         echo "Usage: cleanzip <zipname> [path]"
